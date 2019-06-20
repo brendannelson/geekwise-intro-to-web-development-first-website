@@ -1,0 +1,217 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    /* font-family: 'Open Sans', sans-serif; google font */
+}
+
+.nav-bar {
+    height: 85px;
+    width: 100%;
+    background-color: #F2F2F2; /*gray*/
+    border-bottom: 2px solid black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 70px;
+    width: 80px;
+    display: inline;
+}
+
+.nav-list {
+    float: right;
+    height: 100px;
+    width: 100%;
+}
+
+
+.list-item {
+    /*display: inline;*/
+    list-style-type: none;
+    float: left;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    /* font-family: 'Roboto Slab', serif; google font */
+    /*border-radius: 6px;*/
+    /*border-radius: 25%; oval*/
+    /*border-radius: 50%; circle*/
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*.list-item a:hover {*/
+/*    color: green;*/
+/*}*/
+
+#one {
+    padding: 0.80% 20% 0 20%;
+}
+
+#two {
+    padding: 0.80% 15% 0 20%;
+}
+
+.banner-img {
+    width: 100%;
+    margin-top: 7%; /* position: absolute and top: Xpx; then the image will roll over the nav */
+}
+
+/* .banner-img {
+    background-image: url(../img/mountains-water-reflection-resized.jpg);
+    height: 1100px;
+    width: 100%;        used to input an image from  css - acts like an image, not an element
+    background-size: cover;
+} */
+
+.banner-text {
+    /*background-color: black;*/
+    height: 100px;
+    width: 200px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 43%;
+    text-align: center;
+    margin-top: 20px; /* used for pushing words in h1 tag down */
+    /* text-shadow: greenyellow 6px 6px; MIGHT BE IMPORTANT */
+    /* box-shadow: greenyellow 6px 6px; MIGHT BE IMPORTANT */
+}
+
+.banner h1 {
+    margin-top: 38px;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+.main-section {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    /* top: 1100px; */
+}
+
+.col {
+    height: 500px;
+    width: 48%;
+    /*border: 3px solid black;*/
+    float: left;
+    margin-left: 30px;
+    /* text-align: center; */
+}
+
+.col-img img {
+    height: 500px;
+    width: 100%;
+}
+
+.input, .social, .copy {
+    float: left;
+    width: 30%;
+    /* margin-left: 57px; */
+    text-align: center;
+}
+
+/* .copy {
+    float: left;
+    width: 30%;
+} */
+
+.input input, .input button, .social {
+    margin-top: 24px; 
+    display: inline-block;
+}
+
+.copy {
+    margin-top: 9px;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    position: relative;
+    /* top: 1675px; */
+    background-color: #F2F2F2; 
+    /* background-color: rgba(242, 242, 242, .5); TRANSPARENT FOOTER*/
+    border-top: 2px solid black;
+}
+
+.fa-instagram {
+    color: #F46F30;
+}
+
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+
+.fa-linkedin {
+    color: #007BB5;
+}
+
+/*------------- END OF HOME STYLES ------------*/
+
+/*--------- ABOUT STYLES --------------*/
+
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.columns {
+    width: 24%;
+    /* border: 3px solid black; */
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.col-img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.audio-col {
+    display: block;
+    margin: auto;
+}
+
+.col-video {
+    display: block;
+    width: 500px;
+    padding: 10px;
+}
+
+/*----------- START OF CONTACT STYLES ----------------*/
+
+.contact-header {
+    /* background-color: black; */
+    height: 100px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    margin-top: 200px; 
+    margin: auto;
+}
+
+.container {
+    height: 550px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.contact-col {
+    float: left;
+    margin-left: 90px;
+}
+
+.form {
+    padding-top: 20px;
+}
